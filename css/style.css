@@ -42,7 +42,7 @@ nav a{
 nav a:hover{
     opacity: 0.7;
 }
-section{
+section.inicio{
     text-align: center;
     height: 23rem;
     background: linear-gradient(135deg,#072eda 0%,#01071f 100%);
@@ -95,3 +95,88 @@ div.explo-depor a{
     bottom: -250px;
     right: -150px;
 }
+.deportes{
+    padding: 50px 20px;
+    background-color: #3b9dd6;
+    text-align: center;
+}
+.product-grid{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.futbol-card{
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(14, 13, 13);
+    transition: all 0.3s;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.baloncesto-card{
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(14, 13, 13);
+    transition: all 0.3s;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.tenis-card{
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(14, 13, 13);
+    transition: all 0.3s;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.natacion-card{
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(14, 13, 13);
+    transition: all 0.3s;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.atletismo-card{
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(14, 13, 13);
+    transition: all 0.3s;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.ciclismo-card{
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(14, 13, 13);
+    transition: all 0.3s;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.futbol-card .titulo-deporte{
+    background: linear-gradient(135deg, #2a17d3, #b2d80b);
+}
+.baloncesto-card .titulo-deporte{
+    background: linear-gradient(135deg, #2a17d3, #b2d80b);
+}
+.tenis-card .titulo-deporte{
+    background: linear-gradient(135deg, #2a17d3, #b2d80b);
+}
+.natacion-card .titulo-deporte{
+    background: linear-gradient(135deg, #2a17d3, #b2d80b);
+}
+.atletismo-card .titulo-deporte{
+    background: linear-gradient(135deg, #2a17d3, #b2d80b);
+}
+.ciclismo-card .titulo-deporte{
+    background: linear-gradient(135deg, #2a17d3, #b2d80b);
+}
+
